@@ -2,16 +2,16 @@
 
 Main project page: <https://emscripten.org>
 
-GitHub CI status: [![CircleCI](https://circleci.com/gh/emscripten-core/emscripten.svg?style=svg)](https://circleci.com/gh/emscripten-core/emscripten/tree/main)
+GitHub CI status: [![CircleCI][def]](https://circleci.com/gh/emscripten-core/emscripten/tree/main)
 
 Chromium builder status: [emscripten-releases](https://ci.chromium.org/p/emscripten-releases)
 
 Overview
 --------
 
-Emscripten compiles C and C++ to [WebAssembly](https://webassembly.org/) using
-[LLVM](https://en.wikipedia.org/wiki/LLVM) and
-[Binaryen](https://github.com/WebAssembly/binaryen/). Emscripten output can run
+Emscripten compiles C and C++ to [WebAssembly][def2] using
+[LLVM][def3] and
+[Binaryen][def4]. Emscripten output can run
 on the Web, in Node.js, and in
 [wasm runtimes](https://v8.dev/blog/emscripten-standalone-wasm#running-in-wasm-runtimes).
 
@@ -48,3 +48,9 @@ you to do pretty much anything you want with a compiler, including
 commercial and non-commercial use).
 
 See `LICENSE` for the full content of the licenses.
+
+
+[def]: https://circleci.com/gh/emscripten-core/emscripten.svg?style=svg
+[def2]: https://webassembly.org/
+[def3]: https://en.wikipedia.org/wiki/LLVM
+[def4]: https://github.com/WebAssembly/binaryen/
